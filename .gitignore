@@ -1,0 +1,29 @@
+ Thumbs.db
+ # Ignore editor-specific files
+ .idea
+ .vscode
+ *.swp
+ *.swo
+
+ # Ignore Node.js dependencis (اگر از npm/yarn استفاده میکنید.)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore local development files
+wp-config-local.php
+.env
+
+# Ignore compied assets (اگر ازwobpack/Gulp استفاده می کنیم.)
+/dist/
+/build/
+*.min.js
+*.min.css
+
+# Ignore WordPress core (اگر کل وردپرس در پروژه است)
+/wp/
+/WordPress/
+
+# Ignore upload (اگر پوشه آپلودها را دارید)
+/wp-content/upload/
