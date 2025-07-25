@@ -1,11 +1,14 @@
- Thumbs.db
- # Ignore editor-specific files
- .idea
- .vscode
- *.swp
- *.swo
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
 
- # Ignore Node.js dependencis (اگر از npm/yarn استفاده میکنید.)
+# Ignore editor-specific files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Ignore Node.js dependencies (اگر از npm/yarn استفاده می‌کنید)
 node_modules/
 
 # Ignore log files
@@ -15,7 +18,7 @@ node_modules/
 wp-config-local.php
 .env
 
-# Ignore compied assets (اگر ازwobpack/Gulp استفاده می کنیم.)
+# Ignore compiled assets (اگر از Webpack/Gulp استفاده می‌کنید)
 /dist/
 /build/
 *.min.js
@@ -23,7 +26,7 @@ wp-config-local.php
 
 # Ignore WordPress core (اگر کل وردپرس در پروژه است)
 /wp/
-/WordPress/
+/wordpress/
 
-# Ignore upload (اگر پوشه آپلودها را دارید)
-/wp-content/upload/
+# Ignore uploads (اگر پوشه آپلودها را دارید)
+/wp-content/uploads/
