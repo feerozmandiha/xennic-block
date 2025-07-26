@@ -1,0 +1,30 @@
+{
+    "name": "xennic-block",
+    "version": "1.0.0",
+    "description": "بلوک‌های سفارشی گوتنبرگ برای افزونه Xennic",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/feerozmandiha/xennic-block.git"
+    },
+    "bugs": {
+        "url": "https://github.com/feerozmandiha/xennic-block/issues"
+    },
+    "homepage": "https://github.com/feerozmandiha/xennic-block#readme",
+    "devDependencies": {
+        "@babel/core": "^7.28.0",
+        "@babel/preset-env": "^7.28.0",
+        "@babel/preset-react": "^7.27.1",
+        "babel-loader": "^10.0.0",
+        "html-webpack-plugin": "^5.6.3",
+        "pathe": "^2.0.3",
+        "webpack": "^5.100.2",
+        "webpack-cli": "^6.0.1"
+    }
+}
