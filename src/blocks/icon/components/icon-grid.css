@@ -1,0 +1,38 @@
+/* src/blocks/icon/components/icon-grid.css */
+
+.xennic-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-item:hover {
+  background-color: #eaeaea;
+  transform: scale(1.06);
+}
+
+.icon-item.active {
+  border-color: #007cba;
+  background-color: #007cba;
+  color: #fff;
+}
+
+.dashicons,
+.svg-icon,
+i {
+  font-size: 20px;
+  line-height: 1;
+}
